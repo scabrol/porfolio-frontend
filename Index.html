@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <!--Fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!--Fontawesone-->
+    <script src="https://kit.fontawesome.com/a39873d309.js" crossorigin="anonymous"></script>
+    <!--css bootstraps, sin js-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <!--Mi CSS-->
+    <link rel=" stylesheet" type="text/css" href="assets/css/Styles.css">
+</head>
+<body>
+    <!--Esto es un comentario en html para comentar rapido ctrl y }-->
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-navbar fixed-top">
+            <div class="container-fluid">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/imagen/logo.png" alt="logo de argentina programa">
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Login
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Redes sociales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                Contacto
+                            </a>
+                        </li>
+
+                    </ul>
+
+
+
+                </div>
+            </div>
+        </nav>
+        <!--termina nav-->
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!--formulario-->
+                        <div class="mb-3 row">
+                            <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control-plaintext" id="staticEmail" value="email@ejemplo.com">
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="inputPassword" class="col-sm-2 col-form-label">Clave</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+
+                        <button type="button" class="btn btn-primary">Iniciar sesión </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+  
+    <!--empieza carousel, ver iloveimg-->
+    <section id="sobre mi" class="about">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-3">
+                    <img src="assets/imagen/su.jpg" class="rounded-circle w-75" alt="foto rostro" title="...">
+                    <h3> Susana Cabrol</h3>
+                </div>
+                <div class="col-6 mt-4">
+                    <h5>
+                        Hola a todos/as, mi formación de grado es Licenciatura en Trabajo Social.
+                        Luego de transitar por las ciencias sociales, estoy desarrollando mis conocimientos en programación.
+                        Actualmente estoy realizando la formación "Yo programo" de Argentina Programa 4ta edición. Programador Full Stack Web Jr.
+                    </h5>
+                </div>
+
+
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencia laboral" class="about">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-3">
+                    <strong> Experiencia laboral</strong>
+                </div>
+                <div class="col-6 mt-4">
+                    <h5></h5>
+                    <ul>
+                        <li> Oct 2022- Actual - Dispositivo Hospitalario de Comunicación</li>
+                        <li> Jul 2021- Sep 2022 - Residencia Orinetadores Judiciales</li>
+                        <li> Jun 2017 - May 2021 - Residencia Salud Mental</li>
+                    </ul>
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Educación" class="about">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-3">
+                    <strong> Educación</strong>
+                </div>
+                <div class="col-6 mt-4">
+                    <h5></h5>
+                    <ul>
+                        <li> 2012 - Lic. en Trabajo Social- UNC </li>
+                        <li> 2015-2017 Maestría en Cienccias Sociales (cursé) - UNC </li>
+                        <li> 2022-2023 Estudiante de programación Argentina Programa </li>
+                    </ul>
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Hard & Soft Skills" class="about">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-3">
+                    <strong> Hard & Soft Skills</strong>
+                </div>
+                <div class="col-6 mt-4">
+                    <h5> Hard </h5>
+                    <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-success" style="width: 25%">HTML 60%</div>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-info" style="width: 50%">CSS 60%</div> <br />
+
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-warning" style="width: 75%">JAVA SCRIP 40%</div> <br />
+                    </div>
+                </div>
+                <div class="col-3"></div>
+            </div>
+
+            <div class="col-6 mt-4">
+                <h5> Soft </h5>
+                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 25%">Comunicación 95%</div>
+                </div>
+                <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-info" style="width: 50%">Proactividad 95%</div> <br />
+
+                </div>
+                <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-warning" style="width: 75%">Colaboración 100%</div> <br />
+                </div>
+            </div>
+            <div class="col-3"></div>
+        </div>
+        
+    </section>
+
+    <section id="Proyectos" class="about">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-3">
+                    <strong> Proyectos</strong>
+                </div>
+                <div class="col-6 mt-4">
+                    <h5></h5>
+                    <ul>
+                        <li> Construcción porfolio </li>
+                        <li>  </li>
+                        <li>  </li>
+                    </ul>
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!--esto es el js de bootstraps-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>
